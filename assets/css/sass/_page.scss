@@ -1,0 +1,86 @@
+// Style Page
+.title {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+ h1 {
+  font-size: 2.5em;
+ }
+}
+
+h2 {
+  font-size: 1em;
+  &.hilight {
+    font-size: 2.25em;
+    margin-top: 30px;
+    height: 80px;
+  }
+}
+
+@media (min-width:768px) {
+  .title {
+   h1 {
+    font-size: 3.5em;
+   }
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    &.hilight {
+      font-size: 3.5em;
+      height: auto;
+    }
+  }
+}
+.btn {
+  width: 100%;
+  color: #fff;
+  padding: 15px 30px 10px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  -o-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+.response {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 100%;
+  background: rgba(#fff, 0.35);
+  padding: 30px 0;
+  text-align: center;
+}
+
+.reset-roll {
+  background: #d25043;
+}
+
+.re-roll {
+  background: #4c3762;
+}
+
+.re-roll:hover {
+  background: #9b59b6;
+}
+
+.re-roll:active {
+  background: #703689;
+}
+
+#stamp {
+  width: 100%;
+  text-align: center;
+  display: block;
+  height: 20px;
+}

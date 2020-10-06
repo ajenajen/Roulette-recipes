@@ -1,0 +1,44 @@
+﻿@import "plutonyx.css";
+
+$font-li: 'db_helvethaica_x57_cond';
+$font-reg: 'db_helvethaica_x67_medcond';
+$font-bd: 'db_helvethaica_x77_bdcond';
+
+//Component//
+@import "../sass/text";
+@import "../sass/button";
+@import "../sass/page";
+
+
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: $font-reg;
+  font-size: 16px;
+  overflow-x: hidden;
+  background: #5cb8af;
+}
+.container {
+  max-width: 1200px;
+}
+
+.animate__animated.animate__delay-025s{-webkit-animation-delay:0.25s;animation-delay:0.25s;}
+.animate__animated.animate__delay-05s{-webkit-animation-delay:0.5s;animation-delay:0.5s;}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0.65;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes blinkShadow {
+  0%, 100% {
+    box-shadow: 0px 0px 8px #00FFFF;
+  }
+  50% {
+    box-shadow: 0px 0px 3px #00FFFF;
+  }
+}

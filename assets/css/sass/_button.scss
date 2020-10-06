@@ -1,0 +1,49 @@
+// Button
+
+.btn {
+  border: 0;
+  border-radius: 0;
+  padding: 10px;
+  transition: all 0.5s;
+  &:hover {
+    opacity: 0.95;
+    color: #fff;
+  }
+
+  img.icon {
+    height: 26px;
+    margin: -2px 5px 0;
+  }
+
+  @media (min-width: 992px) {
+    padding: 12px;
+  }
+
+  &.btn-primary {
+    background: #144594;
+    color: #FFFFFF;
+    &:hover {
+      background: #103C82;
+    }
+  }
+  &.btn-main {
+    background: #00FFFF;
+    color: #2E3139;
+    &:hover {
+      box-shadow: 0px 0px 8px #00FFFF;
+      animation: none !important;
+    }
+  }
+  &.btn-shadow {
+    margin: 5px 0;
+    box-shadow: 0px 0px 8px #00FFFF;
+    &:hover {
+      box-shadow: 0px 0px 8px #00FFFF;
+      animation: none !important;
+    }
+  }
+
+  &.btn-lg {
+
+  }
+}

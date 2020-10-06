@@ -1,0 +1,148 @@
+@import url(plutonyx.css);
+h1, h2, h3, h4, h5, h6 {
+  font-family: "db_helvethaica_x67_medcond"; }
+
+.text-white {
+  color: #FFFFFF; }
+
+.text-blue {
+  color: #00FFFF; }
+
+.text-shadow {
+  text-shadow: 0px 0px 2px #00FFFF; }
+
+.text-shadow-2 {
+  text-shadow: 0px 0px 10px #00FFFF; }
+
+.btn {
+  border: 0;
+  border-radius: 0;
+  padding: 10px;
+  transition: all 0.5s; }
+  .btn:hover {
+    opacity: 0.95;
+    color: #fff; }
+  .btn img.icon {
+    height: 26px;
+    margin: -2px 5px 0; }
+  @media (min-width: 992px) {
+    .btn {
+      padding: 12px; } }
+  .btn.btn-primary {
+    background: #144594;
+    color: #FFFFFF; }
+    .btn.btn-primary:hover {
+      background: #103C82; }
+  .btn.btn-main {
+    background: #00FFFF;
+    color: #2E3139; }
+    .btn.btn-main:hover {
+      box-shadow: 0px 0px 8px #00FFFF;
+      animation: none !important; }
+  .btn.btn-shadow {
+    margin: 5px 0;
+    box-shadow: 0px 0px 8px #00FFFF; }
+    .btn.btn-shadow:hover {
+      box-shadow: 0px 0px 8px #00FFFF;
+      animation: none !important; }
+
+.title {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff; }
+  .title h1 {
+    font-size: 2.5em; }
+
+h2 {
+  font-size: 1em; }
+  h2.hilight {
+    font-size: 2.25em;
+    margin-top: 30px;
+    height: 80px; }
+
+@media (min-width: 768px) {
+  .title h1 {
+    font-size: 3.5em; }
+
+  h2 {
+    font-size: 1.5em; }
+    h2.hilight {
+      font-size: 3.5em;
+      height: auto; } }
+.btn {
+  width: 100%;
+  color: #fff;
+  padding: 15px 30px 10px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  -o-transition: all .1s linear;
+  transition: all .1s linear; }
+
+.response {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.35);
+  padding: 30px 0;
+  text-align: center; }
+
+.reset-roll {
+  background: #d25043; }
+
+.re-roll {
+  background: #4c3762; }
+
+.re-roll:hover {
+  background: #9b59b6; }
+
+.re-roll:active {
+  background: #703689; }
+
+#stamp {
+  width: 100%;
+  text-align: center;
+  display: block;
+  height: 20px; }
+
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "db_helvethaica_x67_medcond";
+  font-size: 16px;
+  overflow-x: hidden;
+  background: #5cb8af; }
+
+.container {
+  max-width: 1200px; }
+
+.animate__animated.animate__delay-025s {
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s; }
+
+.animate__animated.animate__delay-05s {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s; }
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0.65; }
+  50% {
+    opacity: 1; } }
+@keyframes blinkShadow {
+  0%, 100% {
+    box-shadow: 0px 0px 8px #00FFFF; }
+  50% {
+    box-shadow: 0px 0px 3px #00FFFF; } }
+
+/*# sourceMappingURL=style.css.map */
